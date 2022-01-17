@@ -1,0 +1,26 @@
+import React , { Component } from 'react'
+ <ScrollView style={{backgroundColor:"orange"}}>
+            <View style={{backgroundColor:"green",alignItems:"center",marginHorizontal:10}}>
+                {/* <Text> signup form core component </Text> */}
+                <View style={{width: 50, height: 50, backgroundColor: 'powderblue',}} />
+                <View style={{width: 100, height: 100, backgroundColor: 'skyblue'}} />
+                <View style={{width: 150, height: 150, backgroundColor: 'steelblue' }}/>
+                <TextInput>write something here</TextInput>
+                <Image source={require('./assets/Images/cat.jpg')}/>
+                <Text>Let start new journey</Text>
+                <Text>In Sha Allah</Text>
+                <TextInput keyboardType="number-pad" placeholder="enter email" style={{borderWidth:2,borderColor:'red'}}  />      
+            </View>
+            <View style={{backgroundColor:"green",alignItems:"center",marginHorizontal:10}}>
+                {/* <Text> signup form core component </Text> */}
+                <View style={{width: 50, height: 50, backgroundColor: 'powderblue',}} />
+                <View style={{width: 100, height: 100, backgroundColor: 'skyblue'}} />
+                <View style={{width: 150, height: 150, backgroundColor: 'steelblue' }}/>
+                <TextInput>write something here</TextInput>
+                <Text>hello pakistan</Text>
+                <Text>Let start new journey</Text>
+                <Text>In Sha Allah</Text>
+                <TextInput keyboardType="number-pad" placeholder="enter email" style={{borderWidth:2,borderColor:'red'}}  />      
+            </View>
+            
+         </ScrollView>
